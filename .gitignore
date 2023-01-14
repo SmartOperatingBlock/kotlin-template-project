@@ -74,4 +74,5 @@ outTmp/
 /test.output
 /kotlin-native/dist
 kotlin-ide/
+.vscode/*
 
