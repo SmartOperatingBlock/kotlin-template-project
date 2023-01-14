@@ -5,6 +5,10 @@ plugins {
 rootProject.name = "kotlin-template-project"
 
 gitHooks {
+    preCommit {
+        tasks("detekt")
+        tasks("ktlintCheck")
+    }
     commitMsg {
         conventionalCommits()
     }
