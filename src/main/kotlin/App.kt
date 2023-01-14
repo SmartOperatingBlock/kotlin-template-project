@@ -1,6 +1,6 @@
-data class OperatingBlock(val name: String)
-
+/**
+ * Template for kotlin projects.
+ */
 fun main() {
-    val smob = OperatingBlock("SmartOperatingBlock")
-    println("Hello World from ${smob.name}!")
+    println("Hello World from Kotlin Template")
 }
