@@ -1,5 +1,6 @@
 plugins {
   application
+    alias(libs.plugins.kotlin.jvm)
 }
 
 group = "io.github.smartoperatingblock"
@@ -9,4 +10,5 @@ repositories {
 }
 
 dependencies {
+    implementation(libs.kotlin.stdlib)
 }
