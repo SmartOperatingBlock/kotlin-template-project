@@ -7,10 +7,19 @@
  */
 
 plugins {
+    id("com.gradle.enterprise") version "3.11.1"
     id("org.danilopianini.gradle-pre-commit-git-hooks") version "1.1.0"
 }
 
 rootProject.name = "kotlin-template-project"
+
+gradleEnterprise {
+    buildScan {
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
+        publishOnFailure() // Always publish Gradle Build Scan if there is a failure.
+    }
+}
 
 gitHooks {
     preCommit {
