@@ -10,6 +10,7 @@ plugins {
     application
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.kotlin.qa)
+    alias(libs.plugins.dokka)
 }
 
 group = "io.github.smartoperatingblock"
