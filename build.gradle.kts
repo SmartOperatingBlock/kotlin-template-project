@@ -23,6 +23,16 @@ dependencies {
     testImplementation(libs.bundles.kotlin.testing)
 }
 
+kotlin {
+    target {
+        compilations.all {
+            kotlinOptions {
+                allWarningsAsErrors = true
+            }
+        }
+    }
+}
+
 tasks.withType<Test> {
     useJUnitPlatform()
     testLogging {
