@@ -12,7 +12,16 @@ on:
   pull_request:
 
 jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+      - name: Validate the Gradle Wrapper
+        uses: gradle/wrapper-validation-action@v1.0.5
   build:
+    needs:
+      - validation
     strategy:
         matrix:
           os: [ubuntu, macos, windows]
