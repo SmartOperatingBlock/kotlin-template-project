@@ -2,6 +2,14 @@ name: Build & Deploy
 
 on:
   push:
+    paths-ignore:
+      - '.gitignore'
+      - '.mergify.yml'
+      - 'CHANGELOG.md'
+      - 'LICENSE'
+      - 'README.md'
+      - 'renovate.json'
+  pull_request:
 
 jobs:
   build:
