@@ -25,11 +25,13 @@ config.plugins.push(
         "message": "chore(release)!: [skip ci] ${nextRelease.version} released"
     }],
     ["@qiwi/semrel-metabranch", {
-        "action" : "push",
-        "from" : "build/dokka",
-        "to" : ".",
-        "branch" : "gh-pages",
-        "message" : "docs: ${nextRelease.version} documentation released"
+        "publish" : {
+            "action" : "push",
+            "from" : "build/dokka",
+            "to" : ".",
+            "branch" : "gh-pages",
+            "message" : "docs: ${nextRelease.version} documentation released"
+        }
     }]
 )
 
