@@ -40,6 +40,10 @@ jobs:
           distribution: adopt
       - name: Run quality assurance and test with coverage
         run: ./gradlew clean check
+      - name: CodeCov
+        uses: codecov/codecov-action@v3.1.1
+        with:
+          directory: "build/reports/jacoco"
   release:
     concurrency:
         # Allow only one release at a time.
