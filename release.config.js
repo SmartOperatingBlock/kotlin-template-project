@@ -24,6 +24,11 @@ config.plugins.push(
         "assets": ["CHANGELOG.md", "package.json"],
         "message": "chore(release)!: [skip ci] ${nextRelease.version} released"
     }],
+    ["@qiwi/semantic-release-gh-pages-plugin", {
+        "msg" : "docs: ${nextRelease.version} documentation released",
+        "src" : "build/dokka",
+        "branch" : "gh-pages"
+    }]
 )
 
 // JS Semantic Release configuration must export the JS configuration object
