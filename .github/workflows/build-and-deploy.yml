@@ -53,6 +53,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       release-status: ${{ env.release_status }}
+      release-version: ${{ env.release_version }}
     # Release only where secrets are available.
     if: >-
       !github.event.repository.fork
@@ -80,7 +81,7 @@ jobs:
     needs:
       - release
     runs-on: ubuntu-latest
-    if: needs.release.outputs.release-status == released
+    if: needs.release.outputs.release-status == 'released'
     env:
       REGISTRY: ghcr.io
       IMAGE_NAME: ${{ github.repository }}
@@ -96,20 +97,20 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - id: version
-        run: echo "version=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
+      - id: full-image-name
+        run: echo "image-name=${ env.REGISTRY,, }/${ env.IMAGE_NAME,, }" >> $GITHUB_OUTPUT
       - name: Build and push the image to GitHub Container registry
-        uses: docker/build-push-action@3.3.0
+        uses: docker/build-push-action@v3.3.0
         with:
           context: .
           push: true
-          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest, ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.version }}
+          tags: ${{ steps.full-image-name.outputs.image-name }}:latest, ${{ steps.full-image-name.outputs.image-name }}:${{ needs.release.outputs.release-version }}
   documentation-deploy:
     needs:
       - release
     runs-on: ubuntu-latest
     # Update documentation only when there is a new release
-    if: needs.release.outputs.release-status == released
+    if: needs.release.outputs.release-status == 'released'
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v3
