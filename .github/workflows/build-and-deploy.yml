@@ -47,7 +47,7 @@ jobs:
   release:
     concurrency:
         # Allow only one release at a time.
-        group: release
+        group: release-${{ github.event.number || github.ref }}
     needs:
       - build
     runs-on: ubuntu-latest
