@@ -51,6 +51,8 @@ jobs:
     needs:
       - build
     runs-on: ubuntu-latest
+    outputs:
+      release-status: ${{ env.release_status }}
     # Release only where secrets are available.
     if: >-
       !github.event.repository.fork
@@ -76,6 +78,29 @@ jobs:
         run: |
           npm install
           npx semantic-release
+  documentation-deploy:
+    needs:
+      - release
+    runs-on: ubuntu-latest
+    # Update documentation only when there is a new release
+    if: needs.release.outputs.release-status == released
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Generate Documentation
+        run: ./gradlew dokkaHtml
+      - name: Deploy documentation on GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          keep_files: true
+          publish_dir: ./build/dokka/html
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'docs: update documentation'
   success:
     runs-on: ubuntu-22.04
     needs:
