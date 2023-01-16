@@ -68,6 +68,7 @@ bin/
 .idea/kotlinc.xml
 .idea/vcs.xml
 .idea/checkstyle-idea.xml
+.idea/git_toolbox_prj.xml
 node_modules/
 .rpt2_cache/
 libraries/tools/kotlin-test-js-runner/lib/
