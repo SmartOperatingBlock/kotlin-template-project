@@ -1,10 +1,14 @@
 // Load this configuration that provide all the base for working with conventional commits
 const config = require('semantic-release-preconfigured-conventional-commits')
 
-// Commands executed during release
+/*
+ Commands executed during release.
+ If the release is executed, then we set the env variable "release" to true.
+*/
 const publishCommands = `
 git tag -a -f \${nextRelease.version} \${nextRelease.version} -F CHANGELOG.md || exit 2
 git push --force origin \${nextRelease.version} || exit 3
+export release=true
 `
 // Only release on branch main
 const releaseBranches = ["main"]
@@ -23,15 +27,6 @@ config.plugins.push(
     ["@semantic-release/git", {
         "assets": ["CHANGELOG.md", "package.json"],
         "message": "chore(release)!: [skip ci] ${nextRelease.version} released"
-    }],
-    ["@qiwi/semrel-metabranch", {
-        "publish" : {
-            "action" : "push",
-            "from" : "build/dokka",
-            "to" : ".",
-            "branch" : "gh-pages",
-            "message" : "docs: ${nextRelease.version} documentation released"
-        }
     }]
 )
 

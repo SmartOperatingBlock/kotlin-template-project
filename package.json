@@ -1,7 +1,6 @@
 {
   "devDependencies": {
-    "semantic-release-preconfigured-conventional-commits": "1.1.16",
-    "@qiwi/semrel-metabranch": "3.1.3"
+    "semantic-release-preconfigured-conventional-commits": "1.1.16"
   },
   "engines": {
     "node": "18.13"
