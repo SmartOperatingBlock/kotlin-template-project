@@ -110,7 +110,6 @@ jobs:
     needs:
       - release
     runs-on: ubuntu-latest
-    # Update documentation only when there is a new release
     if: needs.release.outputs.release-status == 'released'
     steps:
       - name: Checkout the repository
@@ -118,17 +117,14 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Generate Documentation
-        run: ./gradlew dokkaHtml
-      - name: Deploy documentation on GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Generate and deploy documenation
+        uses: SmartOperatingBlock/documentation-ghp-action@1.0.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          keep_files: true
-          publish_dir: ./build/dokka/html
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: 'docs: update documentation'
+          should-generate-code-documentation: true
+          code-documentation-generation-command: ./gradlew dokkaHtml
+          code-documentation-dst-folder: './build/dokka/html'
+          code-documentation-site-folder: 'documentation/code-doc'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
   success:
     runs-on: ubuntu-22.04
     needs:
