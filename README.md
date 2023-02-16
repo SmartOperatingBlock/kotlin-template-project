@@ -1,4 +1,10 @@
 # Template for Kotlin projects
+
+![Release](https://github.com/smartoperatingblock/kotlin-template-project/actions/workflows/build-and-deploy.yml/badge.svg?style=plastic)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=plastic)](https://opensource.org/licenses/MIT)
+![Version](https://img.shields.io/github/v/release/smartoperatingblock/kotlin-template-project?style=plastic)
+
+
 ## Setup
 
 In order to use this template you need to do the following steps:
