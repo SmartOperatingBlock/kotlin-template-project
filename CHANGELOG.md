@@ -1,3 +1,38 @@
+## [0.1.2](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.1...0.1.2) (2023-03-05)
+
+
+### General maintenance
+
+* delete useless step in template setup ([50d802c](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/50d802c8840b8bd2af14e11f70afe1c84edc068e))
+* update readme with badges ([841a903](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/841a90319b585c68a4528cdd96bab72350db5aa9))
+
+
+### Build and continuous integration
+
+* change documentation job with new custom action ([d1bcbb9](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/d1bcbb9d844f701012dfdba5381844f12d73205e))
+* **deps:** update gradle/wrapper-validation-action action to v1.0.6 ([6e660bf](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/6e660bf7b0f03b429e318fbaeb300781d558eeab))
+* use new deployment token ([1a8013c](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/1a8013c15a0b11e96bc69a30ef3eeb8237c59472))
+* use release-and-delivery action to perform release and delivery ([a24a0f4](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/a24a0f447d71af4f38665126260bdf69b2beb7ea))
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v8 ([e142265](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/e1422652bcc5706e2adfbed375de8b32987b238a))
+* **deps:** update dependency gradle to v8.0.1 ([d7919b4](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/d7919b4c909824012ebbb10a85352bcc0ed9b264))
+* **deps:** update dependency gradle to v8.0.2 ([8b87889](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/8b87889bd90dd1af3368feacc3c7beb4a898ae51))
+* **deps:** update kotest to v5.5.5 ([987d42a](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/987d42a5c0a29dd71143e8199fd84bbc54681ff3))
+* **deps:** update plugin kotlin-qa to v0.34.0 ([4854fe1](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/4854fe1a5dc6b73403dfa8ca9bfdf781a2f81f72))
+* **deps:** update plugin kotlin-qa to v0.34.1 ([ea61d64](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/ea61d642516ffb4a7134922f4b6ce5fa4f996892))
+* **deps:** update plugin kotlin-qa to v0.34.2 ([b9c69eb](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/b9c69eb5e7ac8433f50663fe3da4df309e52f05f))
+* **deps:** update plugin kotlin-qa to v0.35.0 ([6dd8a47](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/6dd8a47ff5ee4de01e3b125bddd24ba50d2f0e0c))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.2 ([6babe71](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/6babe716cb20e86ea96fb09e5b33ca20e2620ea3))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.3 ([646beb5](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/646beb5b97450f6195e4a188a42db85950746fec))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.8.10 ([a3cf80b](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/a3cf80bb0aa0534ec9c1d28947eb33b559072d87))
+
 ## [0.1.1](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.0...0.1.1) (2023-02-06)
 
 
