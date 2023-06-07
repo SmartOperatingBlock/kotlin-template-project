@@ -1,3 +1,34 @@
+## [0.1.5](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.4...0.1.5) (2023-06-07)
+
+
+### Build and continuous integration
+
+* **deps:** update codecov/codecov-action action to v3.1.4 ([ce8be9d](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/ce8be9d62b52d7fa25236eb3eddbbc55f512df0c))
+* **deps:** update smartoperatingblock/documentation-ghp-action action to v1.1.0 ([617e7fe](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/617e7fed7babada45ba2ce896bb4073d6afead16))
+
+
+### Dependency updates
+
+* **deps:** update alpine docker tag to v3.18 ([6fdda09](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/6fdda090831b5d59b005c4b0773d988358ffc03b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.26 ([269b47c](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/269b47c9582a139c1b445e7576f9a574854c77bf))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.27 ([dfd2c8c](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/dfd2c8c556f3feaa5c3345d99875914d5fe0e5f1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.29 ([df7b0d1](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/df7b0d12b57ce941817c46c44fdacb1cb5af0517))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.30 ([ba96164](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/ba96164f47e652ce5a004dc33ee2e091a84120f6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.32 ([0d30558](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/0d305581ce35f2c72cdef0ad6751bc2d0a9ebacb))
+* **deps:** update kotest to v5.6.2 ([af01b8b](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/af01b8b10162cf0714ddb33114b224147d6e7bd3))
+* **deps:** update plugin com.gradle.enterprise to v3.13.1 ([73c3d1b](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/73c3d1bd99b402037b4a24623815914bff1ca7ed))
+* **deps:** update plugin com.gradle.enterprise to v3.13.2 ([c122798](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/c122798b04cc87f20cfb1af4fd86a696b5ce3da7))
+* **deps:** update plugin com.gradle.enterprise to v3.13.3 ([d694c5e](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/d694c5e8b7fe2859c58f4a417aa8af277a9f38c4))
+* **deps:** update plugin kotlin-qa to v0.40.0 ([05ad001](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/05ad0019bf0405cef0dd23c467dcbad6c2cc5b40))
+* **deps:** update plugin kotlin-qa to v0.41.0 ([9664217](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/96642177b8cc1914fded8bdbd1a3bbe80450cd51))
+* **deps:** update plugin kotlin-qa to v0.42.0 ([771c0c9](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/771c0c931a0daeb1793235eb109070fbcd290de0))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.7 ([d0c9a21](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/d0c9a21d9c8c4f4effef46d90bf82576f3d0ba5a))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.8.20 ([b1d94a2](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/b1d94a269e212d0d35f975d539d5ab439ef0f629))
+
 ## [0.1.4](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.3...0.1.4) (2023-04-26)
 
 
