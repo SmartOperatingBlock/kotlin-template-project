@@ -1,3 +1,12 @@
+## [0.1.6](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.5...0.1.6) (2023-06-08)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v1.8.22 ([e6f01a8](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/e6f01a89268b3d3d03a5991fd61d983f42b8d82f))
+* **deps:** update plugin kotlin-qa to v0.43.0 ([72cc6e4](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/72cc6e477007fa271222b216d70fe1ad35830232))
+* **deps:** update plugin kotlin-qa to v0.44.0 ([d69d5e5](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/d69d5e59bbd11214807427efba642d735eef937e))
+
 ## [0.1.5](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.4...0.1.5) (2023-06-07)
 
 
