@@ -1,3 +1,30 @@
+## [0.1.8](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.7...0.1.8) (2023-08-24)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v1.9.10 ([50f6c36](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/50f6c365b0d87e3ee0a4efd4dcab6e2fc59ac9d1))
+* **deps:** update dependency gradle to v8.2.1 ([7c2b7ed](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/7c2b7ed2c9243b8be3ae511b65d8192617629876))
+* **deps:** update dependency gradle to v8.3 ([cb31d5e](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/cb31d5e8568224b7702f00f1b484b729560e0c18))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.40 ([0c79c41](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/0c79c41a2e89acddf09b9794b91d9dc267472544))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.41 ([86cba45](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/86cba45c4d072910146bea53540f8949972aab40))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.42 ([c7902eb](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/c7902eb0575b29b98b55aa46df94a9c3950fe70a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.43 ([251879d](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/251879d872b877c54150d12a664052f414b42f7c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.44 ([26e64e0](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/26e64e0d74649c95f946b30a7561e0b0e2f6ff8c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.46 ([43ffe13](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/43ffe13de9baed988f457b19a8770929fe1959c2))
+* **deps:** update node.js to 18.17 ([ffa3250](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/ffa3250bc9e420974f879ea1f474ceaab4dce554))
+* **deps:** update plugin com.gradle.enterprise to v3.14 ([3da767b](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/3da767b4143aeb224b71fe721ccc76839eac964d))
+* **deps:** update plugin com.gradle.enterprise to v3.14.1 ([2b3cad0](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/2b3cad0551401ae647c74582f4e412647a76184c))
+* **deps:** update plugin kotlin-qa to v0.47.0 ([9b1c7bd](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/9b1c7bde6d50d24f28cc9adea05e34222f0f68b3))
+* **deps:** update plugin kotlin-qa to v0.47.1 ([a3f8c46](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/a3f8c46aa557c17348dd41ed3eb78f9801e7d340))
+* **deps:** update plugin kotlin-qa to v0.48.0 ([904cf61](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/904cf61c4835208ee12b75215640b2d50b757daf))
+* **deps:** update plugin kotlin-qa to v0.49.0 ([68b57a1](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/68b57a1f558cbf37290d11be7afe6364ba2d3972))
+
+
+### Build and continuous integration
+
+* **deps:** update gradle/wrapper-validation-action action to v1.1.0 ([af7f6a3](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/af7f6a37436883c00c316fb991fa5e42fcc58279))
+
 ## [0.1.7](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.6...0.1.7) (2023-07-07)
 
 
