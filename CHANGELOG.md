@@ -1,3 +1,23 @@
+## [0.1.9](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.8...0.1.9) (2023-09-05)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.47 ([b2445f7](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/b2445f79c37ed42a9af65237d329422cb4128862))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.48 ([3b1b5e0](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/3b1b5e0be8d8b98acdbaad25d4835ba2984bd13b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.49 ([d13d79e](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/d13d79e143aafe9befa1f59ef687f6154717978c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.52 ([7a8555b](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/7a8555b281c235e692e6a11dc84ea3e6d3613b26))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.53 ([dcffc1c](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/dcffc1c4082c6a5be25e50c9d1779f6be6c338c4))
+* **deps:** update kotest to v5.7.0 ([182594e](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/182594ecb085b5f0f0d7fc91a04d624530b9639f))
+* **deps:** update kotest to v5.7.1 ([07d73c7](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/07d73c71d8edda8029b99cba17d7b55398ca3451))
+* **deps:** update plugin kotlin-qa to v0.49.1 ([3203851](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/32038516369af3d0961310d477a3f19a02e5b4f4))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.10 ([b5240ef](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/b5240efb1ad42ad9956e6059a448ada98ecf659e))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.9.0 ([24381ca](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/24381cafab50e114d09d94468ad8dc50360cdb3b))
+
 ## [0.1.8](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.7...0.1.8) (2023-08-24)
 
 
