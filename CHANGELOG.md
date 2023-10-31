@@ -1,3 +1,22 @@
+## [0.1.11](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.10...0.1.11) (2023-10-31)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v1.9.20 ([18fb36e](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/18fb36e5a6790254be651bf9cbfa2a6c7d92d30b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.69 ([82714a1](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/82714a10145f8f0948906c15975a09086dc9b392))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([189f07c](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/189f07c90d34b2fedf45d4657b63ac52c82c3a82))
+* **deps:** update node.js to 20.9 ([f111e9e](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/f111e9e4ba821767257944422f4329b8d9341bb1))
+* **deps:** update node.js to v20 ([3441fb0](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/3441fb07ad2d0648c8fad3b18311b376afbdc695))
+* **deps:** update plugin kotlin-qa to v0.52.0 ([4bf1df4](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/4bf1df435efdcd022c81fb598525bd4bfb6b025b))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.12 ([993b2d5](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/993b2d530f8c436cb4e4861a83234b9a3ba76586))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.13 ([c3d324f](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/c3d324f1403c95a6c1eb54d34b6ccf0848d0999c))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4 ([7a59c86](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/7a59c86c60a30c8930d706157ccc35eb05348379))
+
 ## [0.1.10](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.9...0.1.10) (2023-10-20)
 
 
