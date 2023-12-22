@@ -1,3 +1,33 @@
+## [0.1.13](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.12...0.1.13) (2023-12-22)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v1.9.22 ([0204375](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/0204375a75ce83b7fb76700d04179da9851798a7))
+* **deps:** update alpine docker tag to v3.19 ([1724338](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/1724338c9c82f2799ab6dde0e3b9c1047cb0d173))
+* **deps:** update dependency gradle to v8.5 ([a3196b4](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/a3196b44e8a2f4d6065734ef25d268987cc71145))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.79 ([4d61c72](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/4d61c72888050ce457b4ad7a379f6140a2cb90ec))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.80 ([82e0562](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/82e0562fe0651e190374deed7a60ccebd6a12d46))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.81 ([b42dd3b](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/b42dd3b0c1bf208588df3f084e0549ca7bccda00))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.82 ([ff75337](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/ff75337a89368bfab5973d79efa582d951dc4936))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([77e00ea](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/77e00eac5abb0927d765a4caebc9064fc87ea396))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([066d8e8](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/066d8e87fda5eb90a7f7bdba6160977d4e9550cd))
+* **deps:** update plugin com.gradle.enterprise to v3.16 ([5d9b27c](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/5d9b27cce50c565f011e1b3145e55c7baf4a9325))
+* **deps:** update plugin com.gradle.enterprise to v3.16.1 ([408fb74](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/408fb74b0c93a983e1be35356f89944b5b5abc16))
+* **deps:** update plugin kotlin-qa to v0.54.1 ([2cd8dc8](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/2cd8dc89906b58049261e54861dbd7c83d2cf7fa))
+* **deps:** update plugin kotlin-qa to v0.55.0 ([afda067](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/afda06798f4ff6fe4ee82cb682fa969d91bd6133))
+* **deps:** update plugin kotlin-qa to v0.55.1 ([fda76d7](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/fda76d7ec1344a74fa0568ae1e0715125238de62))
+* **deps:** update plugin kotlin-qa to v0.55.2 ([e075329](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/e075329affa9ca8fc768d0dde0a06575e61fdf88))
+* **deps:** update plugin kotlin-qa to v0.56.0 ([6a31057](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/6a31057cad0f573c1708913f2fed6f2bd8f05b08))
+* **deps:** update plugin kotlin-qa to v0.57.0 ([6a74dfb](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/6a74dfb1e1b69ae94b8ebfada2219391daecbc29))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.15 ([bf58371](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/bf583714fa2c4d625d3a60d92770030731a9f87d))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.16 ([97a8981](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/97a8981e33ae33b47b06c5070281b5c234be41b3))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4 ([8fc5882](https://github.com/SmartOperatingBlock/kotlin-template-project/commit/8fc58824e0e7e4c486beb536e46d43a04c706036))
+
 ## [0.1.12](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.11...0.1.12) (2023-11-24)
 
 
